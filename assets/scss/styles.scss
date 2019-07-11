@@ -14,7 +14,6 @@ span.mtk3 {
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: 0 0 4px #72edeb;
-
   }
 
   &.ced-1-TextEditorDecorationType33-1 {
@@ -41,9 +40,6 @@ span.mtk3 {
   }
 }
 
-
-
-
 //- Property names for javascript webpack and class names
 .mtk10 {
   margin-left: 2px;
@@ -56,7 +52,6 @@ span.mtk3 {
 .mtk4 {
   font-size: 1em !important;
 }
-
 
 //-Tag Config Variables
 $tag-margin: 0px 0px 0 0px;
@@ -78,7 +73,7 @@ $tag-c-padding: 0px 0px 0px 5px;
     padding: $tag-c-padding;
     margin: $tag-margin;
 
-    &+.mtk13 {
+    & + .mtk13 {
       color: rgb(144, 117, 172) !important;
     }
   }
@@ -87,7 +82,6 @@ $tag-c-padding: 0px 0px 0px 5px;
 //- HTML tags
 
 span.mtk1 {
-
   font-family: "liga-input-sans";
   font-size: 1.2em;
 
@@ -107,8 +101,6 @@ span.mtk1 {
 }
 
 //- Glow crap from synthwave 84
-
-
 
 // .mtk6 {
 //   color: #fdfdfd;
@@ -146,12 +138,23 @@ span.mtk1 {
 // }
 
 /* Sweet sunset dots */
-.monaco-workbench .activitybar>.content .monaco-action-bar .badge .badge-content {
+.monaco-workbench
+  .activitybar
+  > .content
+  .monaco-action-bar
+  .badge
+  .badge-content {
   background: linear-gradient(to bottom, #fff951 25%, #fc28a8);
 }
 
 /* Active tab neon */
-.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.active {
+.monaco-workbench
+  .part.editor
+  > .content
+  .editor-group-container
+  > .title
+  .tabs-container
+  > .tab.sizing-fit.active {
   box-shadow: inset 0 -5px 25px #fc28a825;
   position: relative;
 }
